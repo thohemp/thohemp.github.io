@@ -30,7 +30,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac 
 
 tags:
 - Source Themes
-featured: true
+featured: false
 
 # links:
 # - name: ""
