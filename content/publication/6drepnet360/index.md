@@ -28,7 +28,7 @@ abstract: Estimating the head pose of a person is a crucial problem for numerous
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Source Themes
+- Head pose estimation, Facial analysis
 featured: true
 
 # links:
@@ -65,12 +65,4 @@ projects: []
 slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+{{< pdfReader "/home/thorsten/Projects/thohemp.github.io/content/publication/6drepnet360/10477888.pdf" >}}
