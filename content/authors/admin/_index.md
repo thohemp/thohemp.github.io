@@ -46,7 +46,7 @@ profiles:
   #- icon: academicons/orcid
   #  url: https://orcid.org/
 
-skills:
+interests:
   - Computer Vision
   - Deep Learning
   - Robotics
