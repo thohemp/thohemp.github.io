@@ -122,8 +122,9 @@ highlight_name: true
 ---
 
 
-I am interested in building vision-based estimators for human-machine interactions, logistics and productions pipelines.
+I am a research fellow and Phd student at the [NIT group](https://nit.ovgu.de/) of the Otto von Guericke
+University Magdeburg, Germany. My research focus is computer vision solution for human-robot interaction, logistics and other industrial applications.
 
-**Tools:** C++, Python, Pytorch, OpenCV, Panda, ROS
+Currently, I am working on image-based solutions to enhance the capabilities of autonomous mobile robots in complex, cluttered warehouse environments. The goal is to achieve higher-level context information and improve intuitive human-robot interaction. This project is part of the AutoKoWaT initiative. ([AutoKoWaT](/project/autokowat/)).
 
 {style="text-align: justify;"}

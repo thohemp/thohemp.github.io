@@ -42,14 +42,14 @@ sections:
       title: #Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  #- block: skills
-  #  content:
-  #    title: Skills
-  #    text: ''
-  #    # Choose a user to display skills from (a folder name within `content/authors/`)
-  #    username: admin
-  #  design:
-  #    columns: '1'
+  - block: skills
+    content:
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
+    design:
+      columns: '1'
   - block: markdown
     content:
       title: 'Current Research'
@@ -71,7 +71,7 @@ sections:
         *Synthetic data samples*
 
         ### Model training 
-        Using synthetic data comes with the challenge called the *domain gap* that refers to the models decreased perfomance on real data when the model has only seen synthetic data while training. This gap arises because synthetic data, despite being meticulously crafted, often fails to capture all the nuances and complexities of real-world data. While there are multiple methods to reduce the domain gap, the most common approach is aggressive domain randomization, where a variety of alterations in introduced into synthetic data to make the model robust to variations it might encounter in real data.
+        Using synthetic data comes with the challenge called the *domain gap* that refers to the models decreased perfomance on real data when the model has only seen synthetic data while training. This gap arises because synthetic data, despite being meticulously crafted, often fails to capture all the nuances and complexities of real-world data. While there are multiple methods to reduce the domain gap, the most common approach is aggressive domain randomization, where a variety of alterations ire introduced into the synthetic data to make the model robust to variations it might encounter in real data.
         Combined with a lot of data augmnetation during the training process, the models might start predicting real world pallets with strong accuracy. The following video shows the predictions of a model training on 120k samples of synthetic data. 
 
         {{< rawhtml >}} 

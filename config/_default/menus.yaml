@@ -12,13 +12,13 @@ main:
   #  weight: 20
   - name: Projects
     url: '#projects'
-    weight: 51
+    weight: 40
   - name: Talks
     url: '#talks'
-    weight: 53
+    weight: 20
   - name: Publications
     url: '#featured'
-    weight: 50
+    weight: 30
  # - name: Experience
  #   urls: '#experience'
  #   weight: 52
