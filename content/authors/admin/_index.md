@@ -1,6 +1,6 @@
 ---
 # Display name
-title: MSc Thorsten Hempel
+title: M.Sc. Thorsten Hempel
 
 # Name pronunciation (optional)
 name_pronunciation: 
@@ -29,23 +29,23 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
-interests:
-  - Computer Vision
-  - Deep Learning
-  - Robotics
+#interests:
+#  - Computer Vision
+#  - Deep Learning
+#  - Robotics
 
 # Education to show in About widget
-education:
-  courses:
-    - course: PhD in AI & Robotics (ongoing)
-      institution: Otto von Guericke University
-      year: 2024
-    - course: MSc Industrial Engineering
-      institution: Otto von Guericke University
-      year: 2019
-    - course: BSc Management & Technology
-      institution: Fachhochschule Westküste
-      year: 2017
+#education:
+#  courses:
+#    - course: PhD in AI & Robotics (ongoing)
+#      institution: Otto von Guericke University
+#      year: 2024
+#    - course: MSc Industrial Engineering
+#      institution: Otto von Guericke University
+#      year: 2019
+#    - course: BSc Management & Technology
+#      institution: Fachhochschule Westküste
+#      year: 2017
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -120,11 +120,12 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-
-I am a research fellow and Phd student at the [NIT group](https://nit.ovgu.de/) of the Otto von Guericke
-University Magdeburg, Germany. My research focus is computer vision solution for human-robot interaction, logistics and other industrial applications.
+<br/><br/><br/>
+**I am a research fellow and Phd student at the [NIT group](https://nit.ovgu.de/) of the Otto von Guericke University Magdeburg, Germany**. My research focus is computer vision solutions for human-robot interaction, logistics and other industrial applications.
 
 Currently, I am working on image-based solutions to enhance the capabilities of autonomous mobile robots in complex, cluttered warehouse environments. The goal is to achieve higher-level context information and improve intuitive human-robot interaction. This project is part of the AutoKoWaT initiative. ([AutoKoWaT](/project/autokowat/)).
 
+**Interests:** Computer Vision, Deep Learning, Robotics, Human Robot Interaction
+
+**Tools:** *C++, Python, Pytorch, Pandas, Opencv, Numpy, Scipy, ROS*
 {style="text-align: justify;"}
