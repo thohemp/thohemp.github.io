@@ -109,6 +109,7 @@ sections:
       columns: '2'
       view: card
   - block: experience
+    id: test
     content:
       title: Experience
       # Date format for experience
@@ -121,8 +122,8 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Research Assistant & PhD Student
-          company: Otto von Guericke University
-          company_url: ''
+          company: NIT Group, Otto von Guericke University
+          company_url: 'nit.ovgu.de'
           company_logo: ovgu
           location: Magdeburg
           date_start: '2019-12-01'
@@ -209,7 +210,7 @@ sections:
   #      exclude_future: false
   #      exclude_past: false
   #      publication_type: ""
-   #   # Choose how many pages you would like to offset by
+  #    # Choose how many pages you would like to offset by
   #    offset: 0
   #    # Page order: descending (desc) or ascending (asc) date.
   #    order: desc

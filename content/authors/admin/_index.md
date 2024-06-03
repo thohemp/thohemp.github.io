@@ -38,10 +38,10 @@ interests:
 education:
   courses:
     - course: PhD in AI & Robotics (ongoing)
-      institution: Otto von Guericke Universtiy
+      institution: Otto von Guericke University
       year: 2024
     - course: MSc Industrial Engineering
-      institution: Otto von Guericke Universtiy
+      institution: Otto von Guericke University
       year: 2019
     - course: BSc Management & Technology
       institution: Fachhochschule Westküste
