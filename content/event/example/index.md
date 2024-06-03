@@ -1,5 +1,5 @@
 ---
-title: Talk at WACV on Hawaii, January 2024
+title: Talk at the WACV on Hawaii, January 2024
 
 event: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 
 event_url: https://wacv2024.thecvf.com/

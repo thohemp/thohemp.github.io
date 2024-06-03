@@ -52,16 +52,51 @@ sections:
   #    columns: '1'
   - block: markdown
     content:
-      title: 'Research'
+      title: 'Current Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I am currently working on visual estimators in complex logistics environment to improve automization process and enhance coordination in cluttered warehouse situations.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        ### Pallet Detection
+
+        Pallets are a cruicial component in todays logistics to transport and store any kind of goods. To load and unload pallets safely, transport vehicels must accurately align themselves with the target pallet.
+        A precice image based 3D pallet detection and localization enables robots to approach, load and unload autonomously without human aid, facilitating the automatization in cluttered and fast changing warehouse. 
+
+        ### Dataset curation
+
+        For learning based method, the use of adequate data is crucial to archieve accurate and robust detection rates. Unfortunately, datasets for 3D object detections remain rare because of its challenging and time consuming annotation procedures. 
+        As a work around, generating synthetic data is a promising approach, as it enables creating a large amount of data with automatically generated annotations. The following images shows data samples that has been generated using NVIDIA Omniverse Replicator, a framework for developing custom synthetic data generation pipelines and services.
+           
+        ![img](/images/dataset.svg)
+        *Synthetic data samples*
+
+        ### Model training 
+        Using synthetic data comes with the challenge called the *domain gap* that refers to the models decreased perfomance on real data when the model has only seen synthetic data while training. This gap arises because synthetic data, despite being meticulously crafted, often fails to capture all the nuances and complexities of real-world data. While there are multiple methods to reduce the domain gap, the most common approach is aggressive domain randomization, where a variety of alterations in introduced into synthetic data to make the model robust to variations it might encounter in real data.
+        Combined with a lot of data augmnetation during the training process, the models might start predicting real world pallets with strong accuracy. The following video shows the predictions of a model training on 120k samples of synthetic data. 
+
+        {{< rawhtml >}} 
+
+        <video width=100% controls autoplay>
+            <source src="/videos/pallet.webm" type="video/webm">
+            Your browser does not support the video tag.  
+        </video>
+        {{< /rawhtml >}}
+
+        ### Outlook
+        Next steps involve introducing loaded pallets, which bring the additional challenge of strong occlusion. More details about the data, the model architectures and training pipeling with be released a long a publication in the near future.
+
     design:
       columns: '1'
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
   - block: collection
     id: featured
     content:
@@ -85,27 +120,32 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Research Assistant & PhD Student
+          company: Otto von Guericke University
           company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          company_logo: ovgu
+          location: Magdeburg
+          date_start: '2019-12-01'
           date_end: ''
           description: |2-
+              **Field: 
+              Computer Vision, Artificial Intelligence, Robotics**
+
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Research and Development of new algorithms in machine vision, robotics and AI
+              * Collect, preprocess, and analyze large datasets
+              * Software development in Python & C++
+              * Collaborate in interdisciplinary project teams for the planning and execution of research projects. Coordinate subprojects and work with internal and external partners.
+              * Funding Aquisition
+        - title: M.Sc Industrial Engineering
+          company: Otto von Guericke University
+          company_url: 
+          company_logo: ovgu
+          location: Magdeburg
+          date_start: '2017-10-01'
+          date_end: '2019-12-01'
+          description: 
     design:
       columns: '2'
   #- block: accomplishments
@@ -226,16 +266,6 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
   - block: tag_cloud
     content:
       title: Popular Topics
@@ -246,50 +276,50 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+  #    text: |-
+  #      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+      email: tho.hemp@protonmail.com
+   #   phone: 888 888 88 88
+   #   appointment_url: 'https://calendly.com'
+    #  address:
+   #     street: 450 Serra Mall
+   #     city: Germany
+    #    region: CA
+    #    postcode: '94305'
+     #   country: Germany
+     #   country_code: DE
+   #   directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+   #   office_hours:
+   #     - 'Monday 10:00 to 13:00'
+   #     - 'Wednesday 09:00 to 10:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+    #  coordinates:
+    #    latitude: '37.4275'
+    #    longitude: '-122.1697'  
+    #  contact_links:
+    #    - icon: twitter
+    #      icon_pack: fab
+    #      name: DM Me
+    #      link: 'https://twitter.com/Twitter'
+    #   - icon: skype
+    #      icon_pack: fab
+    #      name: Skype Me
+    #      link: 'skype:echo123?call'
+    #    - icon: video
+    #      icon_pack: fas
+    #      name: Zoom Me
+    #      link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      autolink: true
+     # autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+     # form:
+     #   provider: netlify
+     #   formspree:
+     #     id:
+     #   netlify:
+     #     # Enable CAPTCHA challenge to reduce spam?
+     #     captcha: false
     design:
       columns: '2'
 ---
