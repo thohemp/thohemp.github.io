@@ -9,7 +9,7 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: resume-biography-2
+  - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
@@ -19,16 +19,16 @@ sections:
       #  text: Download CV
       #  url: uploads/resume.pdf
     design:
-      css_class: dark
+      css_class: light
       background:
-        color: black
+        color: white
         image:
           # Add your image background to `assets/media/`.
-          filename: #bg.jpg #stacked-peaks.svg
+          #filename: mountains.jpg
           filters:
             brightness: 1.0
           size: cover
-          position: center
+          position: bottom
           parallax: false
   - block: markdown
     content:
