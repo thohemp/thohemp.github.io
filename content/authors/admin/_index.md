@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Thorsten Hempel
+title: MSc Thorsten Hempel
 
 # Name pronunciation (optional)
 name_pronunciation: 
