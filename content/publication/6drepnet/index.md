@@ -35,7 +35,7 @@ featured: true
 # - name: ""
 #   url: ""
 url_pdf: https://ieeexplore.ieee.org/document/9897219
-url_code: 'https://github.com/thohemp/'
+url_code: 'https://github.com/thohemp/6drepnet'
 url_dataset: ''
 url_poster: ''
 url_project: ''
