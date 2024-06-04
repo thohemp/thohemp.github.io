@@ -1,6 +1,6 @@
 ---
 # Display name
-title: M.Sc. Thorsten Hempel
+title: Thorsten Hempel
 
 # Name pronunciation (optional)
 name_pronunciation: 
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Machine Vision Engineer
+role: M.Sc. Machine Vision Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:

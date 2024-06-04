@@ -138,6 +138,7 @@ sections:
               * Collect, preprocess, and analyze large datasets
               * Software development in Python & C++
               * Collaborate in interdisciplinary project teams for the planning and execution of research projects. Coordinate subprojects and work with internal and external partners.
+              * Supervisee master thesis and scientific projects
               * Funding Aquisition
         - title: M.Sc Industrial Engineering
           company: Otto von Guericke University
