@@ -25,7 +25,7 @@ publication_short: ""
 abstract: In this paper, we present a method for unconstrained end-to-end head pose estimation. We address the problem of ambiguous rotation labels by introducing the rotation matrix formalism for our ground truth data and propose a continuous 6D rotation matrix representation for efficient and robust direct regression. This way, our method can learn the full rotation appearance which exceeds the capabilities of previous approaches that restrict the pose prediction to a narrow-angle for satisfactory results. In addition, we propose a geodesic distance-based loss to penalize our network with respect to the SO(3) manifold geometry. Experiments on the public AFLW2000 and BIWI datasets demonstrate that our proposed method significantly outperforms other state-of-the-art methods by up to 20%. We open-source our training and testing code along with our trained models - https://github.com/thohemp/6DRepNet.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: In this paper, we present an advanced method for unconstrained end-to-end head pose estimation using a continuous 6D rotation matrix representation and geodesic distance-based loss, achieving superior performance on AFLW2000 and BIWI datasets by up to 20% over previous approaches.
 
 tags:
 - Head pose estimation, Facial analysis
