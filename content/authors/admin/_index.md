@@ -43,8 +43,8 @@ profiles:
     url: https://de.linkedin.com/in/thorsten-hempel
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=leE018kAAAAJ&hl=de&oi=ao
-  #- icon: academicons/orcid
-  #  url: https://orcid.org/
+  - icon: academicons/orcid
+    url: https://orcid.org/
 
 interests:
   - Computer Vision
@@ -52,8 +52,8 @@ interests:
   - Robotics
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  - area: PhD AI & Robotics (ngoing)
+    institution: Otto von Guericke Universtiy
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -61,8 +61,8 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: MSc Industrial Engineering
+    institution: Otto von Guericke Universtiy
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -72,8 +72,8 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: BSc Management & Technology
+    institution: Fachhochschule Westküste
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
